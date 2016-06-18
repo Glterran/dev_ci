@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {/* 나눔바른울트라고딕 weight: 100 */
+	font-family: 'NanumBarunGothic';
+	src: url(../fonts/NanumBarunGothicWebUltraLight_11172.eot);
+	src: url(../fonts/NanumBarunGothicWebUltraLight_11172.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumBarunGothicWebUltraLight_11172.woff) format('woff'), url(../fonts/NanumBarunGothicWebUltraLight_11172.ttf) format('truetype');
+	font-weight: 100;
+}
+@font-face {/* 나눔바른라이트고딕 weight: 300 */
+	font-family: 'NanumBarunGothic';
+	src: url(../fonts/NanumBarunGothicWebLight.eot);
+	src: url(../fonts/NanumBarunGothicWebLight.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumBarunGothicWebLight.woff) format('woff'), url(../fonts/NanumBarunGothicWebLight.ttf) format('truetype');
+	font-weight: 300;
+}
+@font-face {/* 나눔바른고딕 weight: 600 */
+	font-family: 'NanumBarunGothic';
+	src: url(../fonts/NanumBarunGothicWeb.eot);
+	src: url(../fonts/NanumBarunGothicWeb.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumBarunGothicWeb.woff) format('woff'), url(../fonts/NanumBarunGothicWeb.ttf) format('truetype');
+	font-weight: 600;
+}
+@font-face {/* 나눔바른두꺼운고딕 weight: 900 */
+	font-family: 'NanumBarunGothic';
+	src: url(../fonts/NanumBarunGothicWebBold.eot);
+	src: url(../fonts/NanumBarunGothicWebBold.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumBarunGothicWebBold.woff) format('woff'), url(../fonts/NanumBarunGothicWebBold.ttf) format('truetype');
+	font-weight: 900;
+}
+@font-face {/* 나눔바른엑스트라볼드 */
+	font-family: 'NanumBarunGothicExtraBold';
+	src: url(../fonts/NANUMGOTHICEXTRABOLD.TTF);
+}

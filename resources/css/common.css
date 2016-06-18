@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('reset.css');
+@import url('font.css');
+@import url('bootstrap.css');
+
+body, input, button, textarea {
+	font-family: 'NanumBarunGothic', sans-serif
+}
+
+header {
+	background: #000;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+
+header div {
+	margin: 0 20px;
+	float: left;
+}
+
+header #loginBox {
+	float: right;
+}
+
+header #loginBox a {
+	color: #fff;
+	margin-right: 5px;
+	text-decoration: underline;
+}
+
+header form input {
+	width: 100px;
+}
+
+nav {
+	height: 40px;
+	background: #333;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	padding: 0 20px;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background-color: #999;
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+.contents.helper ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+.contents.helper ul li {
+	border-bottom: 1px solid #000;
+}
+
+.contents.helper ul li .title {
+	font-weight: 900;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contents.helper ul li .description {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.contents.helper ul li .result {
+	font-size: 15px;
+	line-height: 30px;
+	height: 30px;
+	color: red;
+}
